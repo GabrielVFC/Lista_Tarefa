@@ -36,6 +36,7 @@ public class Lista {
                     System.out.println("Esses são os itens da lista: %s".formatted(tarefas));
                     int i = 0;
                     for (String lista : tarefas){
+                        System.out.printf("Posição %d- %s \n",i, lista);
                         i++;
                     }
                     break;
