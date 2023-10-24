@@ -17,11 +17,12 @@ public class Lista {
             System.out.println(msg);
             System.out.println("Escolha uma opção:");
             opcao = dado.nextInt();
+            dado.nextLine();
 
             switch (opcao){
                 case 1:
                     System.out.printf("Digite a tarefa a ser adicionada: ");
-                    String tarefa = dado.next();
+                    String tarefa = dado.nextLine();
                     tarefas.add(tarefa);
                     System.out.println("Tarefa adicionada!");
                     break;
